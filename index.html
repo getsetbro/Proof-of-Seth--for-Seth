@@ -7,7 +7,7 @@
     <link rel="stylesheet" id="et-gf-rokkitt-css" href="http://fonts.googleapis.com/css?family=Rokkitt:400,700&amp;subset=latin" type="text/css" media="all">
 <style>
   body{font-size: 200%;}
-  p{font-family: Rokkitt}
+  p, .rok{font-family: Rokkitt}
 </style>
 <style>
 @font-face {
@@ -16,31 +16,32 @@
   font-weight: 300;
   src: local('Rokkitt'), url(font/Rokkitt-Light.ttf) format('truetype');
 }
-i{
+i, .rok-lite{
   font-family: Rokkitt-Light
 }
 </style>
 <style>
 @font-face {
-  font-family: 'Rokkitt-Light';
+  font-family: 'Rokkitt-Light-i';
   font-style: normal;
   font-weight: 300;
-  src: local('Rokkitt'), url(font/Rokkitt-Light-Italic-TA.ttf) format('truetype');
+  src: local('Rokkitt'), url(http://getsetbro.com/Proof-of-Seth--for-Seth/font/Rokkitt-Light-Italic-TA.ttf) format('truetype');
 }
-b{
-  font-family: Rokkitt-Light
+b, .rok-lite-i{
+  font-family: Rokkitt-Light-i
 }
 </style>
   </head>
   <body>
   Not Rokkitt.
-<p>
-  Rokkitt like a huricane.
-  <br><br>
-  <em>crappy Rokkitt for italic?</em>
-</p>
-<i>light Rokkitt but shouldnt be italic?</i>
 <br><br>
-<b>not crappy italic but light</b>
+<div class="rok">rok city baby. rok norm</div>
+<em class="rok">rok city baby. rok norm / in an em tag</em>
+<br><br>
+<div class="rok-lite">rokken in the free world. rok-lite</div>
+<em class="rok-lite">rokken in the free world. rok-lite / in an em tag</em>
+<br><br>
+<div class="rok-lite-i">rok around the clokk. rok-lite-i</div>
+<em class="rok-lite-i">rok around the clokk. rok-lite-i / in an em tag</em>
   </body>
 </html>
